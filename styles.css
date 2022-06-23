@@ -1,0 +1,63 @@
+ *{
+  scroll-behavior:auto;
+ }
+ 
+ body {
+          display:flexbox;
+          background-image: url('avengers.jpg');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed; 
+          scroll-behavior:auto;
+        }
+
+h1 {
+  position: fixed;
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+  font-size: xx-large;
+  color: whitesmoke;
+  top: 50%;
+  left: 20px;
+  width: 300px;
+  height: 200px;
+}
+
+p{
+ 
+  position: fixed;
+  color:yellow;
+  font-size:large;
+  top: 60%;
+  left: 20px;
+  width: 80%;
+  height: 200px;
+  
+}
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #155;
+}
